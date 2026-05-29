@@ -11,3 +11,5 @@ def main():
 
     #second_fan will be the default
     second_fan = Fan()
+
+    print("FIRST FAN")
