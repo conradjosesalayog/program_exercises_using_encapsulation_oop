@@ -21,3 +21,6 @@ class Fan:
 
     def get_color(self):
         return self.__color
+
+    def get_on(self):
+        return self.__on
