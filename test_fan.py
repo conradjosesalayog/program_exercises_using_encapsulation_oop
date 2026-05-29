@@ -22,3 +22,4 @@ def main():
     print("---------------------------------------------")
 
     print("SECOND FAN")
+    print(second_fan.get_speed())
