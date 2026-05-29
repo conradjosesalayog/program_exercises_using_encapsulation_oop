@@ -5,7 +5,7 @@ class Fan:
     FAST = 3
 
 #CONSTRUCTOR
-    def __init__(self, speed=1, radius=5.0, color="blue", on=False):
-
-#PRIVATE DATA FIELD
+    def __init__(self, speed=SLOW, radius=5.0, color="blue", on=False):
+    #PRIVATE DATA FIELD
         self.__speed = speed
+        self.__radius = radius
