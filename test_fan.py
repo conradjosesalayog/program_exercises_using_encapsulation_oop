@@ -6,3 +6,4 @@ def main():
     #USE SETTERS
     first_fan.set_speed(Fan.FAST)
     first_fan.set_radius(10.0)
+    first_fan.set_color("yellow")
