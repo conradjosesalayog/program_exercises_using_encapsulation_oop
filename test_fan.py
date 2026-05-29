@@ -23,3 +23,4 @@ def main():
 
     print("SECOND FAN")
     print(second_fan.get_speed())
+    print(second_fan.get_radius())
