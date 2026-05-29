@@ -10,3 +10,4 @@ class Fan:
         self.__speed = speed
         self.__radius = radius
         self.__color = color
+        self.__on = on
