@@ -17,10 +17,8 @@ def main():
     print(first_fan.get_radius())
     print(first_fan.get_color())
     print(first_fan.get_on())
-
-    print()
+    
     print("---------------------------------------------")
-    print()
 
     print("SECOND FAN")
     print(second_fan.get_speed())
