@@ -11,3 +11,7 @@ class Fan:
         self.__radius = radius
         self.__color = color
         self.__on = on
+
+    #GETTERS
+    def get_speed(self):
+        return self.__speed
