@@ -26,3 +26,6 @@ def main():
     print(second_fan.get_radius())
     print(second_fan.get_color())
     print(second_fan.get_on())
+
+    if __name__ == "__main__":
+        main()
