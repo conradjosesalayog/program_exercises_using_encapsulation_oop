@@ -9,3 +9,4 @@ class Fan:
     #PRIVATE DATA FIELD
         self.__speed = speed
         self.__radius = radius
+        self.__color = color
