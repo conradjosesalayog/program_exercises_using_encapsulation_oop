@@ -8,3 +8,6 @@ def main():
     first_fan.set_radius(10.0)
     first_fan.set_color("yellow")
     first_fan.set_on(True)
+
+    #second_fan will be the default
+    second_fan = Fan()
