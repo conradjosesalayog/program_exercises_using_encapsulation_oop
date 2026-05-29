@@ -24,3 +24,7 @@ class Fan:
 
     def get_on(self):
         return self.__on
+
+    #SETTERS
+    def set_speed(self, speed):
+        self.__speed = speed
