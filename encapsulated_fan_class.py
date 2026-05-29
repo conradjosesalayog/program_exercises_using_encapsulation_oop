@@ -15,3 +15,6 @@ class Fan:
     #GETTERS
     def get_speed(self):
         return self.__speed
+
+    def get_radius(self):
+        return self.__radius
