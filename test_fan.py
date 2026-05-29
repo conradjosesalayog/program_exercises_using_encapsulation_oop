@@ -22,7 +22,7 @@ def main():
     #second_fan will be the default
     second_fan = Fan()
 
-    print(bold + cyan + "FIRST FAN" + reset)
+    print(bold + yellow + "FIRST FAN" + reset)
     print(red + "Speed  :", first_fan.get_speed(), reset)
     print(green + "Radius :", first_fan.get_radius(), reset)
     print(yellow + "Color  :", first_fan.get_color(), reset)
