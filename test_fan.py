@@ -13,3 +13,4 @@ def main():
     second_fan = Fan()
 
     print("FIRST FAN")
+    print(first_fan.get_speed())
