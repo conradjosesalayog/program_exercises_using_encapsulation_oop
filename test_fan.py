@@ -30,11 +30,11 @@ def main():
 
     print(f"-------------------{bold}CONRAD MAANGAS FANS{reset}-------------------------")
 
-    print("SECOND FAN")
-    print(second_fan.get_speed())
-    print(second_fan.get_radius())
-    print(second_fan.get_color())
-    print(second_fan.get_on())
+    print(bold + blue + "SECOND FAN" + reset)
+    print(red + "Speed  :", second_fan.get_speed(), reset)
+    print(green + "Radius :", second_fan.get_radius(), reset)
+    print(blue + "Color  :", second_fan.get_color(), reset)
+    print(orange + "On     :", second_fan.get_on(), reset)
 
 if __name__ == "__main__":
     main()
